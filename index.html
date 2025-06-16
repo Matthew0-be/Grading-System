@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all">
+        <h1>Score Checker</h1>
+
+        <label for="scores">Enter Score:</label>
+        <input type="number" id="scores"/>
+
+        <button onclick="checkScore()" class="btn">Check</button>
+
+        <div id="show" class="answer"></div>
+
+        <audio id="failSound" src="./audio/lol_33.mp3"></audio>
+        <audio id="passSound" src="./audio/aww-sound-effect_OII2eTh.mp3"></audio>
+        <audio id="excellentAudio" src="./audio/omgwow.mp3"></audio>
+    </div>
+
+    <div class="circle-container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
