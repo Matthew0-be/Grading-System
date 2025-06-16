@@ -11,27 +11,32 @@ body {
 }
 
 .all {
-    border: 15px solid purple;
+    border: 0.8em solid purple;
     background-color: purple;
     border-radius: 20px;
     display: grid;
     place-items: center;
-    width: 30vw;
-    height: 30vh;
-    margin-top: 14em;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin: 8em auto 2em auto;
     position: relative;
     z-index: 2;
     padding: 2rem;
     color: white;
+    text-align: center;
 }
 
 
 .answer {
     border: 2px solid;
-    width: 10em;
-
+    width: 100%;
+    max-width: 300px;
     display: grid;
     place-items: center;
+    padding: 0.5em;
+    font-size: 1.2em;
+    margin-top: 1em;
 }
 
 .btn {
